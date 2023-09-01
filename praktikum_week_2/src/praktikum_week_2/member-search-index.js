@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"praktikum_week_2","c":"AddNum","l":"AddNum()","u":"%3Cinit%3E()"},{"p":"praktikum_week_2","c":"AddNum","l":"addNum(int, int)","u":"addNum(int,int)"},{"p":"praktikum_week_2","c":"AddNum","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

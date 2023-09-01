@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"praktikum_week_2","l":"AddNum"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();
