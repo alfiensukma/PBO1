@@ -8,7 +8,7 @@ package exercise3;
  *
  * @author alfie
  */
-public class Employee extends Sortable{
+public class Employee{
     public Employee(String n, double s, int day, int month, int year){ 
         name = n; salary = s; hireday = day; hiremonth = month; hireyear = year; 
     } 
@@ -35,10 +35,10 @@ public class Employee extends Sortable{
         return salary;
     }
 
-    public int compare(Sortable b){
-        Employee eb = (Employee) b;
-        if (salary<eb.salary) return -1;
-        if (salary>eb.salary) return +1;
-        return 0;
-    }
+//    public int compare(Sortable b){
+//        Employee eb = (Employee) b;
+//        if (salary<eb.salary) return -1;
+//        if (salary>eb.salary) return +1;
+//        return 0;
+//    }
 }

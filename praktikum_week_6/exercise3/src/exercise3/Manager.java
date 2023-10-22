@@ -11,7 +11,11 @@ import java.util.GregorianCalendar;
  *
  * @author alfie
  */
-public class Manager extends Employee{
+interface Sortable{ 
+    public int compare(Sortable b);
+}
+
+public class Manager extends Employee implements Sortable{
     
     public Manager (String n, double s, int d, int m, int y){
         super(n, s, d, m, y);
@@ -31,4 +35,16 @@ public class Manager extends Employee{
     }
     
     private String secretaryName;
+    
+    @Override
+    public int compare(Sortable b){
+        Manager eb = (Manager) b;
+        if (getSalary()<eb.getSalary()) return -1;
+        if (getSalary()>eb.getSalary() )return +1;
+        return 0;
+    }
+    
+     public static void shell_sort(Sortable[] a){
+    //Shell sort body
+    }
 }
