@@ -1,0 +1,14 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ê±ç•úÿÿÿÿ8žä™Í»1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘®–§üÿÿÿÿ8Ÿä™Í»1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê±ç•úÿÿÿÿ8Ÿä™Í»1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘®–§üÿÿÿÿ8 ä™Í»1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ñ”èª8ËÌ™Í»1
+b
+java:S1854"@Remove this useless assignment to local variable "new_hash_map".(‘®–§üÿÿÿÿ8§ä™Í»1
+L
+java:S1197"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ8¨ä™Í»1
+G	java:S106"+Replace this use of System.out by a logger.(œ•üÈ8«ä™Í»1
+L	java:S106"+Replace this use of System.out by a logger.(³¬›ùûÿÿÿÿ8­ä™Í»1
